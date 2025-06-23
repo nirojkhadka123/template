@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Jane Doe Portfolio - Web Designer & Developer" />
+  <title>Jane Doe Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm bg-white">
+    <div class="container-lg">
+      <a class="navbar-brand fw-bold" href="#">Jane Doe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item d-lg-none"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a class="btn btn-outline-dark d-none d-lg-block" href="#contact">Let's Talk</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero py-5" id="hero">
+    <div class="container-lg">
+      <div class="row align-items-center">
+        <div class="col-sm-6 mb-4 mb-sm-0">
+          <h1 class="display-4 fw-bold">Jane Doe</h1>
+          <p class="lead">Creative designer and front-end developer crafting web experiences.</p>
+          <a href="#projects" class="btn btn-outline-dark btn-lg">View Projects</a>
+        </div>
+        <div class="col-sm-6 text-center">
+          <img src="https://via.placeholder.com/400x300" class="img-fluid rounded shadow" alt="Hero Image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services py-5 bg-light" id="services">
+    <div class="container">
+      <h2 class="display-5 fw-bold mb-4 text-center">Services</h2>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card text-center p-4 h-100">
+            <i class="bi bi-laptop fs-1 mb-3"></i>
+            <div class="card-body">
+              <h5 class="fw-bold">Web Design</h5>
+              <p>Responsive, modern, and user-focused designs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card text-center p-4 h-100">
+            <i class="bi bi-code-slash fs-1 mb-3"></i>
+            <div class="card-body">
+              <h5 class="fw-bold">Development</h5>
+              <p>Clean code and scalable websites.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card text-center p-4 h-100">
+            <i class="bi bi-bar-chart-line fs-1 mb-3"></i>
+            <div class="card-body">
+              <h5 class="fw-bold">SEO</h5>
+              <p>Improve ranking and performance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about py-5" id="about">
+    <div class="container">
+      <h2 class="display-5 fw-bold mb-4 text-center">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center mb-4 mb-md-0">
+          <img src="https://via.placeholder.com/300" class="rounded-circle img-fluid shadow" alt="Jane Doe Photo" />
+        </div>
+        <div class="col-md-8">
+          <p>Hello! I'm Jane, a passionate front‑end developer and web designer based in [Your City]. With over 5 years of experience, I've helped businesses establish their online presence through compelling design and polished code.</p>
+          <p>I specialize in HTML, CSS, JavaScript, React, and Bootstrap. In my free time, I'm always learning new technologies and experimenting with creative web solutions.</p>
+          <a href="#contact" class="btn btn-dark">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects py-5 bg-light" id="projects">
+    <div class="container">
+      <h2 class="display-5 fw-bold mb-4 text-center">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Project 1">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Project One</h5>
+              <p class="card-text flex-grow-1">Brief description of project one.</p>
+              <a href="#" class="btn btn-outline-dark mt-2">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Project 2">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Project Two</h5>
+              <p class="card-text flex-grow-1">Brief description of project two.</p>
+              <a href="#" class="btn btn-outline-dark mt-2">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Project 3">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Project Three</h5>
+              <p class="card-text flex-grow-1">Brief description of project three.</p>
+              <a href="#" class="btn btn-outline-dark mt-2">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials py-5" id="testimonials">
+    <div class="container">
+      <h2 class="display-5 fw-bold mb-4 text-center">Testimonials</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card p-4 shadow-sm h-100">
+            <p>"Jane did an outstanding job redesigning our website. The traffic increased 30% within a month!"</p>
+            <h6 class="mt-3 mb-0 fw-bold">John Smith</h6>
+            <small>CEO, Acme Corp</small>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card p-4 shadow-sm h-100">
+            <p>"Excellent work and attention to detail. Highly recommended!"</p>
+            <h6 class="mt-3 mb-0 fw-bold">Mary Johnson</h6>
+            <small>Marketing Lead, Beta LLC</small>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card p-4 shadow-sm h-100">
+            <p>"Very professional—and fast turnaround time. Loved working with Jane."</p>
+            <h6 class="mt-3 mb-0 fw-bold">Alex Lee</h6>
+            <small>Product Manager, Gamma Inc</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact py-5 bg-light" id="contact">
+    <div class="container">
+      <h2 class="display-5 fw-bold mb-4 text-center">Contact Me</h2>
+      <form class="mx-auto" style="max-width:600px;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Your message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-4 bg-dark text-light">
+    <div class="container text-center">
+      <p class="mb-2">&copy; 2025 Jane Doe. All rights reserved.</p>
+      <div>
+        <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-light me-3"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="text-light"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (Bundle includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
